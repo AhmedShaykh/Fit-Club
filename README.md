@@ -1,1 +1,1 @@
-# JAMStack Web 2.0!
+# React Tailwind Ecommerce Fake Store!
