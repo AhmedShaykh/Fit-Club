@@ -1,1 +1,1 @@
-# React Tailwind Ecommerce Fake Store!
+# React Tailwind Ecommerce Store!
