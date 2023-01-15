@@ -1,1 +1,1 @@
-# Fit Club!
+# The FIT CLUB!
