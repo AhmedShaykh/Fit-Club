@@ -1,1 +1,1 @@
-# Panaverse DAO Website!
+# Panaverse DAO Website
