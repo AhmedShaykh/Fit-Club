@@ -4,7 +4,7 @@ import Hero from "@/Components/Hero";
 
 const Home: FC = () => {
     return (
-        <main style={{ marginTop: "105px" }}>
+        <main style={{ marginTop: "80px" }}>
             <Hero />
         </main>
     )

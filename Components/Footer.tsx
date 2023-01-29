@@ -11,6 +11,7 @@ import {
     Text,
     VisuallyHidden,
     useColorModeValue,
+    Flex,
 } from '@chakra-ui/react';
 import { ReactNode } from 'react';
 import { FaFacebook, FaTwitter, FaYoutube, FaGithub } from 'react-icons/fa';
@@ -281,14 +282,31 @@ const Footer: FC = () => {
                             }}
                             py={1}
                             fontWeight="semibold"
-                            href="https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit"
+                            href="https://www.piaic.org/wit"
                         >
-                            Planning
+                            WIT
                         </Link>
                     </Stack>
                 </SimpleGrid>
-                <hr />
             </Container>
+            <hr />
+            <Flex
+                py="8"
+                alignItems="center"
+                justifyContent="center"
+            >
+                <Link
+                    href="https://github.com/AhmedShaykh"
+                    fontWeight="semibold"
+                    _hover={{
+                        textDecoration: "none",
+                        transition: "0.25s ease",
+                        color: "black",
+                    }}
+                >
+                    <Box>Made By Ahmed Saleem Shaikh</Box>
+                </Link>
+            </Flex>
         </Box>
     );
 };

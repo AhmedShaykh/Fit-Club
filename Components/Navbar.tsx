@@ -116,7 +116,6 @@ const Navbar: FC = () => {
                             <Button
                                 variant={"solid"}
                                 bg="teal"
-                                textDecoration="none"
                                 color={"gray.50"}
                                 _hover={{
                                     textDecoration: "none",
@@ -211,7 +210,6 @@ const Navbar: FC = () => {
                                 <Button
                                     variant={"solid"}
                                     bg="cyan.700"
-                                    textDecoration="none"
                                     color={"gray.50"}
                                     _hover={{
                                         textDecoration: "none",
