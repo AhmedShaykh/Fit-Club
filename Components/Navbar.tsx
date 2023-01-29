@@ -29,7 +29,7 @@ const Navbar: FC = () => {
                 boxShadow="md"
                 position={"fixed"}
                 top={0}
-                bg={"black"}
+                bg="teal"
                 px={4}
             >
                 <Flex h={"100px"} alignItems={"center"} justifyContent={"space-between"}>
@@ -44,7 +44,7 @@ const Navbar: FC = () => {
                             <Link href="/">
                                 <Image
                                     src={
-                                        "https://avatars.githubusercontent.com/u/99120681?s=200&v=4"
+                                        "./Logo.png"
                                     }
                                     alt="logo"
                                     height={90}
@@ -67,7 +67,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    color: "cyan.900",
+                                    color: "gray.700",
                                 }}
                             >
                                 Courses
@@ -82,7 +82,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    color: "cyan.900",
+                                    color: "gray.700",
                                 }}
                                 href="https://www.piaic.org/"
                             >
@@ -98,7 +98,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    color: "cyan.900",
+                                    color: "gray.700",
                                 }}
                                 href="https://www.piaic.org/about"
                             >
@@ -115,7 +115,7 @@ const Navbar: FC = () => {
                         >
                             <Button
                                 variant={"solid"}
-                                bg="cyan.700"
+                                bg="teal"
                                 textDecoration="none"
                                 color={"gray.50"}
                                 _hover={{
@@ -132,12 +132,11 @@ const Navbar: FC = () => {
                         </Link>
                     </Flex>
                     <IconButton
-                        color={"cyan.700"}
-                        borderColor={"#D2001A"}
+                        color={"grey.700"}
                         size={"lg"}
                         _hover={{
                             textDecoration: "none",
-                            bg: "black"
+                            bg: "cyan.900",
                         }}
                         variant="ghost"
                         icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -166,7 +165,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    color: "cyan.900",
+                                    color: "gray.700",
                                 }}
                             >
                                 Courses
@@ -181,7 +180,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    color: "cyan.900",
+                                    color: "gray.700",
                                 }}
                                 href="https://www.piaic.org/"
                             >
@@ -197,7 +196,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    color: "cyan.900",
+                                    color: "gray.700",
                                 }}
                                 href="https://www.piaic.org/about"
                             >

@@ -1,4 +1,5 @@
 "use client";
+import Footer from '@/Components/Footer';
 import Navbar from '@/Components/Navbar';
 import { ChakraProvider } from '@chakra-ui/react';
 import './globals.css';
@@ -19,6 +20,7 @@ export default function RootLayout({
         <ChakraProvider>
           <Navbar />
           {children}
+          <Footer />
         </ChakraProvider>
       </body>
     </html>
