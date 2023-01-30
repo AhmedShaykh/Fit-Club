@@ -70,6 +70,21 @@ const Navbar: FC = () => {
                                     color: "gray.700",
                                 }}
                             >
+                                About
+                            </Link>
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={"md"}
+                                color="#EFEFEF"
+                                fontWeight="semibold"
+                                transition="0.25s ease"
+                                _hover={{
+                                    textDecoration: "none",
+                                    transition: "0.25s ease",
+                                    color: "gray.700",
+                                }}
+                            >
                                 Courses
                             </Link>
                             <Link
@@ -87,22 +102,6 @@ const Navbar: FC = () => {
                                 href="https://www.piaic.org/"
                             >
                                 PIAIC
-                            </Link>
-                            <Link
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="#EFEFEF"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    color: "gray.700",
-                                }}
-                                href="https://www.piaic.org/about"
-                            >
-                                About
                             </Link>
                         </HStack>
                     </HStack>
@@ -167,6 +166,21 @@ const Navbar: FC = () => {
                                     color: "gray.700",
                                 }}
                             >
+                                About
+                            </Link>
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={"md"}
+                                color="#EFEFEF"
+                                fontWeight="semibold"
+                                transition="0.25s ease"
+                                _hover={{
+                                    textDecoration: "none",
+                                    transition: "0.25s ease",
+                                    color: "gray.700",
+                                }}
+                            >
                                 Courses
                             </Link>
                             <Link
@@ -184,22 +198,6 @@ const Navbar: FC = () => {
                                 href="https://www.piaic.org/"
                             >
                                 PIAIC
-                            </Link>
-                            <Link
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="#EFEFEF"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    color: "gray.700",
-                                }}
-                                href="https://www.piaic.org/about"
-                            >
-                                About
                             </Link>
                             <Link
                                 _hover={{
