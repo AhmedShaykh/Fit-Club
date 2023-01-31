@@ -74,9 +74,9 @@ const Navbar: FC = () => {
                                     bgClip:"text"
                                 }}
                             >
-                                <Link href="/about">
+                                {/* <Link href="/about"> */}
                                     About
-                                </Link>
+                                {/* </Link> */}
                             </ChakraLink>
                             <ChakraLink
                                 px={2}
@@ -175,9 +175,9 @@ const Navbar: FC = () => {
                                     bgClip: "text"
                                 }}
                             >
-                                <Link href="/about">
+                                {/* <Link href="/about"> */}
                                     About
-                                </Link>
+                                {/* </Link> */}
                             </ChakraLink>
                             <ChakraLink
                                 px={2}
