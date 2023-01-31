@@ -33,7 +33,8 @@ const Hero: FC = () => {
                         <Heading
                             as="h2"
                             lineHeight={1.2}
-                            color="teal"
+                            bgGradient="linear(to-r, teal.300, #28a745)"
+                            bgClip="text"
                             fontWeight={"bold"}
                             fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
                         >
@@ -115,7 +116,7 @@ const Hero: FC = () => {
                     </Flex>
                 </Stack>
             </Container>
-        </Box>
+        </Box >
     );
 };
 

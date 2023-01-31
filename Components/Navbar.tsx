@@ -64,7 +64,7 @@ const Navbar: FC = () => {
                                 px={2}
                                 py={1}
                                 rounded={"md"}
-                                color="#EFEFEF"
+                                color="white"
                                 fontWeight="semibold"
                                 transition="0.25s ease"
                                 _hover={{
@@ -82,7 +82,7 @@ const Navbar: FC = () => {
                                 px={2}
                                 py={1}
                                 rounded={"md"}
-                                color="#EFEFEF"
+                                color="white"
                                 fontWeight="semibold"
                                 transition="0.25s ease"
                                 _hover={{
@@ -98,7 +98,7 @@ const Navbar: FC = () => {
                                 px={2}
                                 py={1}
                                 rounded={"md"}
-                                color="#EFEFEF"
+                                color="white"
                                 fontWeight="semibold"
                                 transition="0.25s ease"
                                 _hover={{
@@ -165,7 +165,7 @@ const Navbar: FC = () => {
                                 px={2}
                                 py={1}
                                 rounded={"md"}
-                                color="#EFEFEF"
+                                color="white"
                                 fontWeight="semibold"
                                 transition="0.25s ease"
                                 _hover={{
@@ -183,7 +183,7 @@ const Navbar: FC = () => {
                                 px={2}
                                 py={1}
                                 rounded={"md"}
-                                color="#EFEFEF"
+                                color="white"
                                 fontWeight="semibold"
                                 transition="0.25s ease"
                                 _hover={{
@@ -199,7 +199,7 @@ const Navbar: FC = () => {
                                 px={2}
                                 py={1}
                                 rounded={"md"}
-                                color="#EFEFEF"
+                                color="white"
                                 fontWeight="semibold"
                                 transition="0.25s ease"
                                 _hover={{
