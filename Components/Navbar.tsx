@@ -60,24 +60,42 @@ const Navbar: FC = () => {
                             spacing={4}
                             display={{ base: "none", md: "flex" }}
                         >
-                            <ChakraLink
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="white"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
-                                    bgClip:"text"
-                                }}
-                            >
-                                {/* <Link href="/about"> */}
+                            <Link href="/about">
+                                <ChakraLink
+                                    px={2}
+                                    py={1}
+                                    rounded={"md"}
+                                    color="white"
+                                    fontWeight="semibold"
+                                    transition="0.25s ease"
+                                    _hover={{
+                                        textDecoration: "none",
+                                        transition: "0.25s ease",
+                                        bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                        bgClip: "text"
+                                    }}
+                                >
                                     About
-                                {/* </Link> */}
-                            </ChakraLink>
+                                </ChakraLink>
+                            </Link>
+                            <Link href="/courses">
+                                <ChakraLink
+                                    px={2}
+                                    py={1}
+                                    rounded={"md"}
+                                    color="white"
+                                    fontWeight="semibold"
+                                    transition="0.25s ease"
+                                    _hover={{
+                                        textDecoration: "none",
+                                        transition: "0.25s ease",
+                                        bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                        bgClip: "text"
+                                    }}
+                                >
+                                    Courses
+                                </ChakraLink>
+                            </Link>
                             <ChakraLink
                                 px={2}
                                 py={1}
@@ -89,23 +107,7 @@ const Navbar: FC = () => {
                                     textDecoration: "none",
                                     transition: "0.25s ease",
                                     bgGradient: "linear(to-r, cyan.300, #28a745)",
-                                    bgClip:"text"
-                                }}
-                            >
-                                Courses
-                            </ChakraLink>
-                            <ChakraLink
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="white"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
-                                    bgClip:"text"
+                                    bgClip: "text"
                                 }}
                                 href="https://www.piaic.org/"
                             >
@@ -161,40 +163,42 @@ const Navbar: FC = () => {
                             as={"nav"}
                             spacing={8}
                         >
-                            <ChakraLink
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="white"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
-                                    bgClip: "text"
-                                }}
-                            >
-                                {/* <Link href="/about"> */}
+                            <Link href="/about">
+                                <ChakraLink
+                                    px={2}
+                                    py={1}
+                                    rounded={"md"}
+                                    color="white"
+                                    fontWeight="semibold"
+                                    transition="0.25s ease"
+                                    _hover={{
+                                        textDecoration: "none",
+                                        transition: "0.25s ease",
+                                        bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                        bgClip: "text"
+                                    }}
+                                >
                                     About
-                                {/* </Link> */}
-                            </ChakraLink>
-                            <ChakraLink
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="white"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
-                                    bgClip: "text"
-                                }}
-                            >
-                                Courses
-                            </ChakraLink>
+                                </ChakraLink>
+                            </Link>
+                            <Link href="/courses">
+                                <ChakraLink
+                                    px={2}
+                                    py={1}
+                                    rounded={"md"}
+                                    color="white"
+                                    fontWeight="semibold"
+                                    transition="0.25s ease"
+                                    _hover={{
+                                        textDecoration: "none",
+                                        transition: "0.25s ease",
+                                        bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                        bgClip: "text"
+                                    }}
+                                >
+                                    Courses
+                                </ChakraLink>
+                            </Link>
                             <ChakraLink
                                 px={2}
                                 py={1}

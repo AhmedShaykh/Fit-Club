@@ -7,8 +7,7 @@ import {
     Box,
     Container,
     Flex,
-    Image,
-    Link
+    Image
 } from '@chakra-ui/react';
 
 const About: FC = () => {

@@ -8,7 +8,7 @@ import {
     Button
 } from '@chakra-ui/react';
 
-const About: FC = () => {
+const Courses: FC = () => {
     return (
         <Container maxW={'5xl'} mt="10">
             <Stack
@@ -47,4 +47,4 @@ const About: FC = () => {
     );
 };
 
-export default About;
+export default Courses;
