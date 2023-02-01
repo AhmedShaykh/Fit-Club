@@ -20,6 +20,7 @@ const Courses: FC = () => {
                     py="8"
                     px={["1.4rem", "auto"]}
                     textAlign={"center"}
+                    mb="2"
                 >
                     <Heading
                         as="h1"
@@ -37,9 +38,9 @@ const Courses: FC = () => {
                     mb={4}
                 >
                     <Box
-                        bg={"gray.100"}
+                        bg={"teal.400"}
                         p={4}
-                        height="280px"
+                        h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
@@ -47,10 +48,10 @@ const Courses: FC = () => {
                         <Heading
                             as="h1"
                             fontWeight="bold"
-                            fontSize="2xl"
-                            mt={6}
+                            fontSize="xl"
+                            mt={4}
                         >
-                            Blockchain
+                            Web 3.0 (Blockchain) & Metaverse Specialization
                         </Heading>
                         <Text
                             fontSize="md"
@@ -60,9 +61,9 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"gray.100"}
+                        bg={"blue.300"}
                         p={4}
-                        height="280px"
+                        h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
@@ -70,8 +71,8 @@ const Courses: FC = () => {
                         <Heading
                             as="h1"
                             fontWeight="bold"
-                            fontSize="2xl"
-                            mt={6}
+                            fontSize="xl"
+                            mt={4}
                         >
                             Artificial Intelligence
                         </Heading>
@@ -83,9 +84,9 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"gray.100"}
+                        bg={"pink.300"}
                         p={4}
-                        height="280px"
+                        h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
@@ -93,8 +94,8 @@ const Courses: FC = () => {
                         <Heading
                             as="h1"
                             fontWeight="bold"
-                            fontSize="2xl"
-                            mt={6}
+                            fontSize="xl"
+                            mt={4}
                         >
                             Cloud Native Computing
                         </Heading>
@@ -106,9 +107,9 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"gray.100"}
+                        bg={"cyan.300"}
                         p={4}
-                        height="280px"
+                        h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
@@ -116,10 +117,10 @@ const Courses: FC = () => {
                         <Heading
                             as="h1"
                             fontWeight="bold"
-                            fontSize="2xl"
-                            mt={6}
+                            fontSize="xl"
+                            mt={4}
                         >
-                            Internet Of Things
+                            Ambient Computing & IoT Specialization
                         </Heading>
                         <Text
                             fontSize="md"
@@ -129,9 +130,9 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"gray.100"}
+                        bg={"green.300"}
                         p={4}
-                        height="280px"
+                        h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
@@ -139,10 +140,10 @@ const Courses: FC = () => {
                         <Heading
                             as="h1"
                             fontWeight="bold"
-                            fontSize="2xl"
-                            mt={6}
+                            fontSize="xl"
+                            mt={4}
                         >
-                            Genomics and Bioinformatics Specialization
+                            Genomics & Bioinformatics Specialization
                         </Heading>
                         <Text
                             fontSize="md"
@@ -152,9 +153,9 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"gray.100"}
+                        bg={"orange.300"}
                         p={4}
-                        height="280px"
+                        h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
@@ -162,10 +163,10 @@ const Courses: FC = () => {
                         <Heading
                             as="h1"
                             fontWeight="bold"
-                            fontSize="2xl"
+                            fontSize="xl"
                             mt={4}
                         >
-                            Network Programmability and Automation Specialization
+                            Network Programmability & Automation Specialization
                         </Heading>
                         <Text
                             fontSize="md"
