@@ -39,6 +39,7 @@ const Navbar: FC = () => {
                             rounded="md"
                             justify={"center"}
                             zIndex={10}
+                            mx="4"
                             display={{ base: "center", md: "flex", lg: "flex" }}
                             align={"center"}
                         >
@@ -50,8 +51,8 @@ const Navbar: FC = () => {
                                         "./Logo.png"
                                     }
                                     alt="logo"
-                                    height={90}
-                                    width={90}
+                                    height={50}
+                                    width={50}
                                 />
                             </Link>
                         </Flex>
