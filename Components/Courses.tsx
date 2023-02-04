@@ -97,7 +97,7 @@ const Courses: FC = () => {
                             fontSize="xl"
                             mt={4}
                         >
-                            Cloud Native Computing
+                            Cloud Native & Mobile Web Computing
                         </Heading>
                         <Text
                             fontSize="md"
