@@ -13,33 +13,22 @@ import {
     useColorModeValue,
     useBreakpointValue
 } from '@chakra-ui/react';
-import { CardProps } from "@/Components/Types";
-import Blockchain from "@/Components/BlockChain";
-import AI from "@/Components/AI";
-import CNC from "@/Components/CNC";
-import IOT from "@/Components/IOT";
-import BIO from "@/Components/BIO";
-import Auto from "@/Components/Auto";
+import { CardProps } from "./Types";
 
 const milestones = [
     {
         id: 1,
-        title: 'Quarter I (Core)',
-        description: `CS-101: Object-Oriented Programming using TypeScript`
+        title: 'Quarter IV',
+        description: `W3-351: Developing Smart Contracts and Planet-Scale Web 3.0 Dapps`
     },
     {
         id: 2,
-        title: 'Quarter II (Core)',
-        description: `W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform`
+        title: 'Quarter V',
+        description: `MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse Experiences`
     },
-    {
-        id: 3,
-        title: 'Quarter III (Core)',
-        description: '$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development'
-    }
 ];
 
-const Courses: FC = () => {
+const Blockchain: FC = () => {
 
     const isMobile = useBreakpointValue({ base: true, md: false });
 
@@ -48,12 +37,11 @@ const Courses: FC = () => {
     return (
         <Box>
             <Box
-                bg="black"
-                color="white"
+                bg="teal.500"
+                color="black"
             >
                 <Container maxW={'7xl'}>
                     <Stack
-                        mt="5rem"
                         textAlign={'center'}
                         align={'center'}
                         px="2"
@@ -65,14 +53,14 @@ const Courses: FC = () => {
                             fontWeight={"bold"}
                             fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
-                            Core Courses All Specializations:
+                            Web 3.0 (Blockchain) & Metaverse Specialization
                         </Heading>
                         <Text
                             fontSize={20}
-                            lineHeight={1.3}
+                            lineHeight={1.5}
                             pt={{ base: "2", md: "4" }}
                         >
-                            Every participant of the program will start by completing the following three core courses:
+                            This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.
                         </Text>
                     </Stack>
                 </Container>
@@ -113,13 +101,6 @@ const Courses: FC = () => {
                     ))}
                 </Container>
             </Box>
-
-            <Blockchain />
-            <AI />
-            <CNC />
-            <IOT />
-            <BIO />
-            <Auto />
         </Box>
     )
 };
@@ -144,8 +125,8 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 3, sm: 6 }}
             my={{ base: 2 }}
-            bg="black"
-            color="white"
+            bg="teal.500"
+            color="black"
             spacing={5}
             rounded="lg"
             alignItems="center"
@@ -154,7 +135,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#000000', '#000000')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue('#38B2AC', '#38B2AC')} transparent` },
                 borderStyle: 'solid',
                 borderWidth: borderWidthValue,
                 position: 'absolute',
@@ -188,7 +169,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="black"
+                borderColor="teal.500"
                 top="0px"
             >
             </chakra.span>
@@ -204,7 +185,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="black"
+                    bg="teal.500"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}
@@ -219,4 +200,4 @@ const EmptyCard = () => {
     return <Box flex={{ base: 0, md: 1 }} p={{ base: 0, md: 6 }} bg="transparent"></Box>;
 };
 
-export default Courses;
+export default Blockchain;

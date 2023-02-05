@@ -13,33 +13,22 @@ import {
     useColorModeValue,
     useBreakpointValue
 } from '@chakra-ui/react';
-import { CardProps } from "@/Components/Types";
-import Blockchain from "@/Components/BlockChain";
-import AI from "@/Components/AI";
-import CNC from "@/Components/CNC";
-import IOT from "@/Components/IOT";
-import BIO from "@/Components/BIO";
-import Auto from "@/Components/Auto";
+import { CardProps } from "./Types";
 
 const milestones = [
     {
         id: 1,
-        title: 'Quarter I (Core)',
-        description: `CS-101: Object-Oriented Programming using TypeScript`
+        title: 'Quarter IV',
+        description: `NPA-351: CCNA 200-301 Certification`
     },
     {
         id: 2,
-        title: 'Quarter II (Core)',
-        description: `W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform`
+        title: 'Quarter V',
+        description: `NPA-361: Network Programmability and Automation`
     },
-    {
-        id: 3,
-        title: 'Quarter III (Core)',
-        description: '$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development'
-    }
 ];
 
-const Courses: FC = () => {
+const Auto: FC = () => {
 
     const isMobile = useBreakpointValue({ base: true, md: false });
 
@@ -48,12 +37,11 @@ const Courses: FC = () => {
     return (
         <Box>
             <Box
-                bg="black"
-                color="white"
+                bg="orange.400"
+                color="black"
             >
                 <Container maxW={'7xl'}>
                     <Stack
-                        mt="5rem"
                         textAlign={'center'}
                         align={'center'}
                         px="2"
@@ -65,14 +53,15 @@ const Courses: FC = () => {
                             fontWeight={"bold"}
                             fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
-                            Core Courses All Specializations:
+                            Network Programmability & Automation Specialization
+
                         </Heading>
                         <Text
                             fontSize={20}
-                            lineHeight={1.3}
+                            lineHeight={1.5}
                             pt={{ base: "2", md: "4" }}
                         >
-                            Every participant of the program will start by completing the following three core courses:
+                            Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.
                         </Text>
                     </Stack>
                 </Container>
@@ -113,13 +102,6 @@ const Courses: FC = () => {
                     ))}
                 </Container>
             </Box>
-
-            <Blockchain />
-            <AI />
-            <CNC />
-            <IOT />
-            <BIO />
-            <Auto />
         </Box>
     )
 };
@@ -144,8 +126,8 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 3, sm: 6 }}
             my={{ base: 2 }}
-            bg="black"
-            color="white"
+            bg="orange.400"
+            color="black"
             spacing={5}
             rounded="lg"
             alignItems="center"
@@ -154,7 +136,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#000000', '#000000')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue('#ED8936', '#ED8936')} transparent` },
                 borderStyle: 'solid',
                 borderWidth: borderWidthValue,
                 position: 'absolute',
@@ -188,7 +170,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="black"
+                borderColor="orange.400"
                 top="0px"
             >
             </chakra.span>
@@ -204,7 +186,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="black"
+                    bg="orange.400"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}
@@ -219,4 +201,4 @@ const EmptyCard = () => {
     return <Box flex={{ base: 0, md: 1 }} p={{ base: 0, md: 6 }} bg="transparent"></Box>;
 };
 
-export default Courses;
+export default Auto;

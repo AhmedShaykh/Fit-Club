@@ -39,7 +39,7 @@ const Courses: FC = () => {
                     mb={4}
                 >
                     <Box
-                        bg={"teal.400"}
+                        bg={"teal.500"}
                         p={4}
                         h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
@@ -65,7 +65,7 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"blue.300"}
+                        bg={"blue.500"}
                         p={4}
                         h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
@@ -92,7 +92,7 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"pink.300"}
+                        bg={"pink.500"}
                         p={4}
                         h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
@@ -119,7 +119,7 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"cyan.300"}
+                        bg={"cyan.500"}
                         p={4}
                         h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
@@ -146,7 +146,7 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"green.300"}
+                        bg={"green.400"}
                         p={4}
                         h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
@@ -173,7 +173,7 @@ const Courses: FC = () => {
                         </Text>
                     </Box>
                     <Box
-                        bg={"orange.300"}
+                        bg={"orange.400"}
                         p={4}
                         h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
