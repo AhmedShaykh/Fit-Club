@@ -1,12 +1,11 @@
 "use client";
 import { FC } from "react";
-import Link from "next/link";
 import {
     Box,
     Flex,
     HStack,
     IconButton,
-    Link as ChakraLink,
+    Link,
     Button,
     useDisclosure,
     Stack,
@@ -61,25 +60,41 @@ const Navbar: FC = () => {
                             spacing={4}
                             display={{ base: "none", md: "flex" }}
                         >
-                            <Link href="/courses">
-                                <ChakraLink
-                                    px={2}
-                                    py={1}
-                                    rounded={"md"}
-                                    color="white"
-                                    fontWeight="semibold"
-                                    transition="0.25s ease"
-                                    _hover={{
-                                        textDecoration: "none",
-                                        transition: "0.25s ease",
-                                        bgGradient: "linear(to-r, cyan.300, #28a745)",
-                                        bgClip: "text"
-                                    }}
-                                >
-                                    Courses
-                                </ChakraLink>
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={"md"}
+                                color="white"
+                                fontWeight="semibold"
+                                transition="0.25s ease"
+                                _hover={{
+                                    textDecoration: "none",
+                                    transition: "0.25s ease",
+                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                    bgClip: "text"
+                                }}
+                                href="/"
+                            >
+                                Home
                             </Link>
-                            <ChakraLink
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={"md"}
+                                color="white"
+                                fontWeight="semibold"
+                                transition="0.25s ease"
+                                _hover={{
+                                    textDecoration: "none",
+                                    transition: "0.25s ease",
+                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                    bgClip: "text"
+                                }}
+                                href="/courses"
+                            >
+                                Courses
+                            </Link>
+                            <Link
                                 px={2}
                                 py={1}
                                 rounded={"md"}
@@ -95,11 +110,11 @@ const Navbar: FC = () => {
                                 href="https://www.piaic.org/"
                             >
                                 PIAIC
-                            </ChakraLink>
+                            </Link>
                         </HStack>
                     </HStack>
                     <Flex alignItems={"center"} display={{ base: "none", md: "flex" }}>
-                        <ChakraLink
+                        <Link
                             _hover={{
                                 textDecoration: "none",
                             }}
@@ -120,7 +135,7 @@ const Navbar: FC = () => {
                             >
                                 Apply
                             </Button>
-                        </ChakraLink>
+                        </Link>
                     </Flex>
                     <IconButton
                         color={"white"}
@@ -146,25 +161,41 @@ const Navbar: FC = () => {
                             as={"nav"}
                             spacing={8}
                         >
-                            <Link href="/courses">
-                                <ChakraLink
-                                    px={2}
-                                    py={1}
-                                    rounded={"md"}
-                                    color="white"
-                                    fontWeight="semibold"
-                                    transition="0.25s ease"
-                                    _hover={{
-                                        textDecoration: "none",
-                                        transition: "0.25s ease",
-                                        bgGradient: "linear(to-r, cyan.300, #28a745)",
-                                        bgClip: "text"
-                                    }}
-                                >
-                                    Courses
-                                </ChakraLink>
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={"md"}
+                                color="white"
+                                fontWeight="semibold"
+                                transition="0.25s ease"
+                                _hover={{
+                                    textDecoration: "none",
+                                    transition: "0.25s ease",
+                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                    bgClip: "text"
+                                }}
+                                href="/"
+                            >
+                                Home
                             </Link>
-                            <ChakraLink
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={"md"}
+                                color="white"
+                                fontWeight="semibold"
+                                transition="0.25s ease"
+                                _hover={{
+                                    textDecoration: "none",
+                                    transition: "0.25s ease",
+                                    bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                    bgClip: "text"
+                                }}
+                                href="/courses"
+                            >
+                                Courses
+                            </Link>
+                            <Link
                                 px={2}
                                 py={1}
                                 rounded={"md"}
@@ -180,8 +211,8 @@ const Navbar: FC = () => {
                                 href="https://www.piaic.org/"
                             >
                                 PIAIC
-                            </ChakraLink>
-                            <ChakraLink
+                            </Link>
+                            <Link
                                 _hover={{
                                     textDecoration: "none",
                                 }}
@@ -202,7 +233,7 @@ const Navbar: FC = () => {
                                 >
                                     Apply
                                 </Button>
-                            </ChakraLink>
+                            </Link>
                         </Stack>
                     </Box>
                 ) : null}

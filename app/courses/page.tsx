@@ -16,7 +16,6 @@ import {
 interface CardProps {
     title: string;
     content: string;
-    created_at: string;
     link: string;
 }
 
@@ -25,21 +24,18 @@ const articles = [
         id: 1,
         title: "Web 3.0 and Blockchain",
         content: `This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet. `,
-        created_at: "2023",
         link: "/metaverse",
     },
     {
         id: 2,
         title: "Metaverse",
         content: `This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet. `,
-        created_at: "2023",
         link: "/metaverse",
     },
     {
         id: 3,
         title: "Artificial Intelligence",
         content: `The AI and Deep Learning specialization focuses on building and deploying intelligent APIs using OpenAI models and building custom Deep Learning Tensorflow models.`,
-        created_at: "2022",
         link: "/ai",
     },
     {
@@ -47,21 +43,18 @@ const articles = [
         title: "Cloud-Native Computing Specialization",
         content: `The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes. 
     `,
-        created_at: "2022",
         link: "/cloudnative",
     },
     {
         id: 5,
         title: "Ambient Computing and IoT Specialization",
         content: `The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter, and Embedded Devices. `,
-        created_at: "2022",
         link: "/iot",
     },
     {
         id: 6,
         title: "Genomics and Bioinformatics Specialization",
         content: `Genomics is the study of the total genetic makeup of individual organisms, and how this genetic information is structured `,
-        created_at: "2023",
         link: "/bio",
     },
     {
@@ -69,7 +62,6 @@ const articles = [
         categories: ["NP", "With Videos"],
         title: "Network Programmability and Automation Specialization",
         content: `his course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.`,
-        created_at: "2023",
         link: "/network",
     },
 ];
@@ -79,7 +71,6 @@ const CoursesSec = () => {
         <Container maxWidth="4xl" p={{ base: 2, sm: 10 }}>
             {articles.map((article, index) => (
                 <Flex key={index} mb="10px">
-                    <LineWithDot />
                     <Card {...article} />
                 </Flex>
             ))}
@@ -87,41 +78,7 @@ const CoursesSec = () => {
     );
 };
 
-const LineWithDot = () => {
-    return (
-        <Flex pos="relative" alignItems="center" mr="40px">
-            <chakra.span
-                position="absolute"
-                left="50%"
-                height="calc(100% + 10px)"
-                border="1px solid"
-                borderColor={useColorModeValue("red.100", "red.200")}
-                top="0px"
-            ></chakra.span>
-            <Box pos="relative" p="10px">
-                <Box
-                    pos="absolute"
-                    width="100%"
-                    height="100%"
-                    bottom="0"
-                    right="0"
-                    top="0"
-                    left="0"
-                    backgroundSize="cover"
-                    backgroundRepeat="no-repeat"
-                    backgroundPosition="center center"
-                    backgroundColor="rgb(255, 255, 255)"
-                    borderRadius="100px"
-                    border="3px solid #D2001A"
-                    backgroundImage="none"
-                    opacity={1}
-                ></Box>
-            </Box>
-        </Flex>
-    );
-};
-
-const Card = ({ title, content, created_at, link }: CardProps) => {
+const Card = ({ title, content, link }: CardProps) => {
     return (
         <HStack
             p={{ base: 3, sm: 6 }}
@@ -160,7 +117,6 @@ const Card = ({ title, content, created_at, link }: CardProps) => {
                         {content}
                     </Text>
                 </VStack>
-                <Text fontSize="sm">{created_at}</Text>
             </Box>
         </HStack>
     );
@@ -208,16 +164,15 @@ function Courses() {
                                 fontWeight="bold"
                                 color={"red.800"}
                             >
-                                Earn While You Learn
+                                Core Courses (Common in All Specializations):
                             </chakra.h1>
                         </Stack>
                     </Box>
                 </Box>
             </Box>
-            <hr />
 
             <CoursesSec />
-            <hr />
+            
         </div>
     );
 }
