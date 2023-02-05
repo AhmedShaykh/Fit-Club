@@ -5,7 +5,8 @@ import {
     Box,
     Text,
     SimpleGrid,
-    Heading
+    Heading,
+    useColorModeValue
 } from "@chakra-ui/react";
 
 const Courses: FC = () => {
@@ -43,7 +44,10 @@ const Courses: FC = () => {
                         h={{ base: "auto", md: "250px", lg: "280px" }}
                         rounded="lg"
                         textAlign="center"
-                        pos="relative"
+                        pos="relative" boxShadow={useColorModeValue(
+                            "0 4px 6px rgba(160, 174, 192, 0.6)",
+                            "0 4px 6px rgba(9, 17, 28, 0.9)"
+                        )}
                     >
                         <Heading
                             as="h1"
@@ -67,6 +71,10 @@ const Courses: FC = () => {
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
+                        boxShadow={useColorModeValue(
+                            "0 4px 6px rgba(160, 174, 192, 0.6)",
+                            "0 4px 6px rgba(9, 17, 28, 0.9)"
+                        )}
                     >
                         <Heading
                             as="h1"
@@ -90,6 +98,10 @@ const Courses: FC = () => {
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
+                        boxShadow={useColorModeValue(
+                            "0 4px 6px rgba(160, 174, 192, 0.6)",
+                            "0 4px 6px rgba(9, 17, 28, 0.9)"
+                        )}
                     >
                         <Heading
                             as="h1"
@@ -113,6 +125,10 @@ const Courses: FC = () => {
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
+                        boxShadow={useColorModeValue(
+                            "0 4px 6px rgba(160, 174, 192, 0.6)",
+                            "0 4px 6px rgba(9, 17, 28, 0.9)"
+                        )}
                     >
                         <Heading
                             as="h1"
@@ -136,6 +152,10 @@ const Courses: FC = () => {
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
+                        boxShadow={useColorModeValue(
+                            "0 4px 6px rgba(160, 174, 192, 0.6)",
+                            "0 4px 6px rgba(9, 17, 28, 0.9)"
+                        )}
                     >
                         <Heading
                             as="h1"
@@ -159,6 +179,10 @@ const Courses: FC = () => {
                         rounded="lg"
                         textAlign="center"
                         pos="relative"
+                        boxShadow={useColorModeValue(
+                            "0 4px 6px rgba(160, 174, 192, 0.6)",
+                            "0 4px 6px rgba(9, 17, 28, 0.9)"
+                        )}
                     >
                         <Heading
                             as="h1"

@@ -18,6 +18,7 @@ const Courses: FC = () => {
                         mt="5rem"
                         textAlign={'center'}
                         align={'center'}
+                        px="2"
                         py={{ base: 20, md: 28 }}
                     >
                         <Heading

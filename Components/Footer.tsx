@@ -63,8 +63,9 @@ const Footer: FC = () => {
             bg="teal"
             color="white"
         >
-            <Container as={Stack} maxW={'6xl'} py={10}>
+            <Container as={Stack} maxW={'7xl'} py={10}>
                 <SimpleGrid
+                    pl="2"
                     templateColumns={{ sm: '1fr 1fr', md: '2fr 2fr 2fr 2fr' }}
                     pb={8}
                     spacing={8}>
@@ -150,7 +151,7 @@ const Footer: FC = () => {
                             fontWeight="semibold"
                             href="https://www.piaic.org/iot"
                         >
-                            Internet of Things and AI
+                            Internet of Things & AI
                         </Link>
                         <Link
                             _hover={{
