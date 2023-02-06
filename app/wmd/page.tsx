@@ -1,11 +1,13 @@
 "use client";
 import { FC } from 'react';
-import Courses from '@/Components/Courses';
+import CoreCourses from '@/Components/CoreCourses';
+import Blockchain from '@/Components/BlockChain';
 
 const Wmd: FC = () => {
     return (
         <>
-            <Courses />
+            <CoreCourses />
+            <Blockchain />
         </>
     )
 };

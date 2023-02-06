@@ -1,11 +1,13 @@
 "use client";
 import { FC } from 'react';
-import Courses from '@/Components/Courses';
+import CoreCourses from '@/Components/CoreCourses';
+import IOT from '@/Components/IOT';
 
 const Iot: FC = () => {
     return (
         <>
-            <Courses />
+            <CoreCourses />
+            <IOT />
         </>
     )
 };

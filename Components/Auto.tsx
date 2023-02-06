@@ -37,8 +37,8 @@ const Auto: FC = () => {
     return (
         <Box>
             <Box
-                bg="orange.400"
-                color="black"
+                bg="#ff192e"
+                color="white"
             >
                 <Container maxW={'7xl'}>
                     <Stack
@@ -59,6 +59,7 @@ const Auto: FC = () => {
                         <Text
                             fontSize={20}
                             lineHeight={1.5}
+                            fontWeight="bold"
                             pt={{ base: "2", md: "4" }}
                         >
                             Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.
@@ -126,19 +127,22 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 3, sm: 6 }}
             my={{ base: 2 }}
-            bg="orange.400"
-            color="black"
+            bg="#ff192e"
+            color="white"
             spacing={5}
             rounded="lg"
             alignItems="center"
             pos="relative"
+            boxShadow={useColorModeValue(
+                "0 4px 6px rgb(20 22 23 / 60%)",
+                "0 4px 6px rgba(9, 17, 28, 0.9)"
+            )}
             _before={{
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#ED8936', '#ED8936')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue('#ff192e', '#ff192e')} transparent` },
                 borderStyle: 'solid',
-                borderWidth: borderWidthValue,
                 position: 'absolute',
                 left: leftValue,
                 right: rightValue,
@@ -150,7 +154,7 @@ const Card = ({ id, title, description }: CardProps) => {
                     <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
                         {title}
                     </chakra.h1>
-                    <Text fontSize="md">{description}</Text>
+                    <Text fontSize="md" fontWeight="bold">{description}</Text>
                 </VStack>
             </Box>
         </HStack>
@@ -170,7 +174,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="orange.400"
+                borderColor="#ff192e"
                 top="0px"
             >
             </chakra.span>
@@ -186,7 +190,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="orange.400"
+                    bg="#ff192e"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}

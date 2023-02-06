@@ -37,7 +37,7 @@ const IOT: FC = () => {
     return (
         <Box>
             <Box
-                bg="cyan.500"
+                bg="#1be0da"
                 color="black"
             >
                 <Container maxW={'7xl'}>
@@ -53,11 +53,12 @@ const IOT: FC = () => {
                             fontWeight={"bold"}
                             fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
-                            Ambient Computing and IoT Specialization
+                            Ambient Computing & IoT Specialization
                         </Heading>
                         <Text
                             fontSize={20}
                             lineHeight={1.5}
+                            fontWeight="bold" 
                             pt={{ base: "2", md: "4" }}
                         >
                             The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices.
@@ -109,7 +110,7 @@ const Card = ({ id, title, description }: CardProps) => {
     // For even id show card on left side
     // For odd id show card on right side
     const isEvenId = id % 2 == 0;
-    let borderWidthValue = isEvenId ? '15px 15px 15px 0' : '15px 0 15px 15px';
+    // let borderWidthValue = isEvenId ? '15px 15px 15px 0' : '15px 0 15px 15px';
     let leftValue = isEvenId ? '-15px' : 'unset';
     let rightValue = isEvenId ? 'unset' : '-15px';
 
@@ -117,7 +118,7 @@ const Card = ({ id, title, description }: CardProps) => {
     if (isMobile) {
         leftValue = '-15px';
         rightValue = 'unset';
-        borderWidthValue = '15px 15px 15px 0';
+        // borderWidthValue = '15px 15px 15px 0';
     }
 
     return (
@@ -125,19 +126,22 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 3, sm: 6 }}
             my={{ base: 2 }}
-            bg="cyan.500"
+            bg="#1be0da"
             color="black"
             spacing={5}
             rounded="lg"
             alignItems="center"
             pos="relative"
+            boxShadow={useColorModeValue(
+                "0 4px 6px rgb(20 22 23 / 60%)",
+                "0 4px 6px rgba(9, 17, 28, 0.9)"
+            )}
             _before={{
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#00B5D8', '#00B5D8')} transparent` },
+                borderColor: {base: "none", md: `transparent ${useColorModeValue('#1be0da', '#1be0da')} transparent` },
                 borderStyle: 'solid',
-                borderWidth: borderWidthValue,
                 position: 'absolute',
                 left: leftValue,
                 right: rightValue,
@@ -149,7 +153,7 @@ const Card = ({ id, title, description }: CardProps) => {
                     <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
                         {title}
                     </chakra.h1>
-                    <Text fontSize="md">{description}</Text>
+                    <Text fontSize="md" fontWeight="bold">{description}</Text>
                 </VStack>
             </Box>
         </HStack>
@@ -169,7 +173,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="cyan.500"
+                borderColor="#1be0da"
                 top="0px"
             >
             </chakra.span>
@@ -185,7 +189,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="cyan.500"
+                    bg="#1be0da"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}

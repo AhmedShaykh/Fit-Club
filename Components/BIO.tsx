@@ -37,7 +37,7 @@ const BIO: FC = () => {
     return (
         <Box>
             <Box
-                bg="green.400"
+                bg="#18f32f"
                 color="black"
             >
                 <Container maxW={'7xl'}>
@@ -58,6 +58,7 @@ const BIO: FC = () => {
                         <Text
                             fontSize={20}
                             lineHeight={1.5}
+                            fontWeight="bold"
                             pt={{ base: "2", md: "4" }}
                         >
                             This Specialization focuses on performing complex bioinformatics analysis using the most essential Python libraries and applications
@@ -125,19 +126,22 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 3, sm: 6 }}
             my={{ base: 2 }}
-            bg="green.400"
+            bg="#18f32f"
             color="black"
             spacing={5}
             rounded="lg"
             alignItems="center"
             pos="relative"
+            boxShadow={useColorModeValue(
+                "0 4px 6px rgb(20 22 23 / 60%)",
+                "0 4px 6px rgba(9, 17, 28, 0.9)"
+            )}
             _before={{
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#48BB78', '#48BB78')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue('#18f32f', '#18f32f')} transparent` },
                 borderStyle: 'solid',
-                borderWidth: borderWidthValue,
                 position: 'absolute',
                 left: leftValue,
                 right: rightValue,
@@ -149,7 +153,7 @@ const Card = ({ id, title, description }: CardProps) => {
                     <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
                         {title}
                     </chakra.h1>
-                    <Text fontSize="md">{description}</Text>
+                    <Text fontSize="md" fontWeight="bold">{description}</Text>
                 </VStack>
             </Box>
         </HStack>
@@ -169,7 +173,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="green.400"
+                borderColor="#18f32f"
                 top="0px"
             >
             </chakra.span>
@@ -185,7 +189,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="green.400"
+                    bg="#18f32f"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}

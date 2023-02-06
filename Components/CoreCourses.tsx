@@ -13,22 +13,27 @@ import {
     useColorModeValue,
     useBreakpointValue
 } from '@chakra-ui/react';
-import { CardProps } from "./Types";
+import { CardProps } from "@/Components/Types";
 
 const milestones = [
     {
         id: 1,
-        title: 'Quarter IV',
-        description: `CN-351: Certified Kubernetes Application Developer (CKAD)`
+        title: 'Quarter I (Core)',
+        description: `CS-101: Object-Oriented Programming using TypeScript`
     },
     {
         id: 2,
-        title: 'Quarter V',
-        description: `CN-361: Developing Multi-Cloud APIs using CDK for Terraform`
+        title: 'Quarter II (Core)',
+        description: `W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform`
     },
+    {
+        id: 3,
+        title: 'Quarter III (Core)',
+        description: '$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development'
+    }
 ];
 
-const CNC: FC = () => {
+const CoreCourses: FC = () => {
 
     const isMobile = useBreakpointValue({ base: true, md: false });
 
@@ -37,11 +42,12 @@ const CNC: FC = () => {
     return (
         <Box>
             <Box
-                bg="#ff05a8"
+                bg="black"
                 color="white"
             >
                 <Container maxW={'7xl'}>
                     <Stack
+                        mt="5rem"
                         textAlign={'center'}
                         align={'center'}
                         px="2"
@@ -53,15 +59,14 @@ const CNC: FC = () => {
                             fontWeight={"bold"}
                             fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
-                            Cloud Native & Mobile Web Computing Specialization
+                            Core Courses All Specializations:
                         </Heading>
                         <Text
                             fontSize={20}
-                            lineHeight={1.5}
-                            fontWeight="bold"
+                            lineHeight={1.3}
                             pt={{ base: "2", md: "4" }}
                         >
-                            The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes.
+                            Every participant of the program will start by completing the following three core courses:
                         </Text>
                     </Stack>
                 </Container>
@@ -107,8 +112,7 @@ const CNC: FC = () => {
 };
 
 const Card = ({ id, title, description }: CardProps) => {
-    // For even id show card on left side
-    // For odd id show card on right side
+
     const isEvenId = id % 2 == 0;
     let borderWidthValue = isEvenId ? '15px 15px 15px 0' : '15px 0 15px 15px';
     let leftValue = isEvenId ? '-15px' : 'unset';
@@ -126,7 +130,7 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 3, sm: 6 }}
             my={{ base: 2 }}
-            bg="#ff05a8"
+            bg="black"
             color="white"
             spacing={5}
             rounded="lg"
@@ -140,7 +144,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#ff05a8', '#ff05a8')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue('#000000', '#000000')} transparent` },
                 borderStyle: 'solid',
                 position: 'absolute',
                 left: leftValue,
@@ -153,7 +157,7 @@ const Card = ({ id, title, description }: CardProps) => {
                     <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
                         {title}
                     </chakra.h1>
-                    <Text fontSize="md" fontWeight="bold">{description}</Text>
+                    <Text fontSize="md">{description}</Text>
                 </VStack>
             </Box>
         </HStack>
@@ -173,7 +177,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="#ff05a8"
+                borderColor="black"
                 top="0px"
             >
             </chakra.span>
@@ -189,7 +193,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="#ff05a8"
+                    bg="black"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}
@@ -204,4 +208,4 @@ const EmptyCard = () => {
     return <Box flex={{ base: 0, md: 1 }} p={{ base: 0, md: 6 }} bg="transparent"></Box>;
 };
 
-export default CNC;
+export default CoreCourses;

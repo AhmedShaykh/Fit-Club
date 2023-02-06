@@ -1,11 +1,13 @@
 "use client";
 import { FC } from 'react';
-import Courses from '@/Components/Courses';
+import CoreCourses from '@/Components/CoreCourses';
+import BIO from '@/Components/BIO';
 
 const Bio: FC = () => {
     return (
         <>
-            <Courses />
+            <CoreCourses />
+            <BIO />
         </>
     )
 };

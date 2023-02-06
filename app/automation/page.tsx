@@ -1,15 +1,15 @@
 "use client";
 import { FC } from 'react';
 import CoreCourses from '@/Components/CoreCourses';
-import AI from '@/Components/AI';
+import Auto from '@/Components/Auto';
 
-const Ai: FC = () => {
+const Npa: FC = () => {
     return (
         <>
             <CoreCourses />
-            <AI />
+            <Auto />
         </>
     )
 };
 
-export default Ai;
+export default Npa;

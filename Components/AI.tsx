@@ -37,8 +37,8 @@ const AI: FC = () => {
     return (
         <Box>
             <Box
-                bg="blue.500"
-                color="black"
+                bg="#1440ee"
+                color="white"
             >
                 <Container maxW={'7xl'}>
                     <Stack
@@ -125,19 +125,22 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 3, sm: 6 }}
             my={{ base: 2 }}
-            bg="blue.500"
-            color="black"
+            bg="#1440ee"
+            color="white"
             spacing={5}
             rounded="lg"
             alignItems="center"
             pos="relative"
+            boxShadow={useColorModeValue(
+                "0 4px 6px rgb(20 22 23 / 60%)",
+                "0 4px 6px rgba(9, 17, 28, 0.9)"
+            )}
             _before={{
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#3182CE', '#3182CE')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue('#1440ee', '#1440ee')} transparent` },
                 borderStyle: 'solid',
-                borderWidth: borderWidthValue,
                 position: 'absolute',
                 left: leftValue,
                 right: rightValue,
@@ -169,7 +172,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="blue.500"
+                borderColor="#1440ee"
                 top="0px"
             >
             </chakra.span>
@@ -185,7 +188,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="blue.500"
+                    bg="#1440ee"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}
