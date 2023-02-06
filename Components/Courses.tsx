@@ -19,7 +19,7 @@ const Courses: FC = () => {
                 py={{ base: 10, md: 16 }}
             >
                 <Box
-                    py={{base: 4, md: 8}}
+                    py={{ base: 4, md: 8 }}
                     px={["1.4rem", "auto"]}
                     textAlign={"center"}
                     mb="2"

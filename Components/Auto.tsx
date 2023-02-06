@@ -60,7 +60,7 @@ const Auto: FC = () => {
                             fontSize={20}
                             lineHeight={1.5}
                             fontWeight="bold"
-                            pt={{ base: "2", md: "4" }}
+                            pt={{ base: "3", md: "4" }}
                         >
                             Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.
                         </Text>
@@ -125,7 +125,7 @@ const Card = ({ id, title, description }: CardProps) => {
     return (
         <HStack
             flex={1}
-            p={{ base: 3, sm: 6 }}
+            p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
             bg="#ff192e"
             color="white"

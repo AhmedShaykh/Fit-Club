@@ -59,7 +59,7 @@ const IOT: FC = () => {
                             fontSize={20}
                             lineHeight={1.5}
                             fontWeight="bold" 
-                            pt={{ base: "2", md: "4" }}
+                            pt={{ base: "3", md: "4" }}
                         >
                             The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices.
                         </Text>
@@ -124,7 +124,7 @@ const Card = ({ id, title, description }: CardProps) => {
     return (
         <HStack
             flex={1}
-            p={{ base: 3, sm: 6 }}
+            p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
             bg="#1be0da"
             color="black"

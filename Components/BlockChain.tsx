@@ -59,7 +59,7 @@ const Blockchain: FC = () => {
                             fontSize={20}
                             lineHeight={1.5}
                             fontWeight="bold"
-                            pt={{ base: "2", md: "4" }}
+                            pt={{ base: "3", md: "4" }}
                         >
                             This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.
                         </Text>
@@ -124,7 +124,7 @@ const Card = ({ id, title, description }: CardProps) => {
     return (
         <HStack
             flex={1}
-            p={{ base: 3, sm: 6 }}
+            p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
             bg="#13ee9f"
             color="black"

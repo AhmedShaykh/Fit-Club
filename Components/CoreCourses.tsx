@@ -64,7 +64,7 @@ const CoreCourses: FC = () => {
                         <Text
                             fontSize={20}
                             lineHeight={1.3}
-                            pt={{ base: "2", md: "4" }}
+                            pt={{ base: "3", md: "4" }}
                         >
                             Every participant of the program will start by completing the following three core courses:
                         </Text>
@@ -128,7 +128,7 @@ const Card = ({ id, title, description }: CardProps) => {
     return (
         <HStack
             flex={1}
-            p={{ base: 3, sm: 6 }}
+            p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
             bg="black"
             color="white"
