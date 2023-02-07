@@ -105,7 +105,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -118,7 +118,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -131,7 +131,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -144,7 +144,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -157,7 +157,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -173,7 +173,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -186,7 +186,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -199,7 +199,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -212,7 +212,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -225,7 +225,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -241,7 +241,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -254,7 +254,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -267,7 +267,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -280,7 +280,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}
@@ -293,7 +293,7 @@ const Footer: FC = () => {
                             _hover={{
                                 textDecoration: "none",
                                 transition: "0.25s ease",
-                                bgGradient: "linear(to-r, cyan.300, #28a745)",
+                                bgGradient: "linear(to-r, #17fffb, #29e654)",
                                 bgClip: "text"
                             }}
                             py={1}

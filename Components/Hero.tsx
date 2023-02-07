@@ -24,6 +24,7 @@ const Hero: FC = () => {
                     <Stack flex={1} spacing={{ base: 5, md: 10 }}>
                         <Heading
                             as="h2"
+                            color="black"
                             lineHeight={1.1}
                             fontWeight={"bold"}
                             fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
@@ -33,7 +34,7 @@ const Hero: FC = () => {
                         <Heading
                             as="h2"
                             lineHeight={1.2}
-                            bgGradient="linear(to-r, teal.300, #28a745)"
+                            bgGradient="linear(to-r, #119965, #16d98e, cyan.500)"
                             bgClip="text"
                             fontWeight={"bold"}
                             fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
@@ -41,7 +42,7 @@ const Hero: FC = () => {
                             With Panaverse
                         </Heading>
                         <Text
-                            fontSize={20}
+                            fontSize={{ base: 16, sm: 20 }}
                             color={'grey'}
                             lineHeight={1.3}
                             pb={{ base: "2", md: "1" }}
@@ -65,7 +66,7 @@ const Hero: FC = () => {
                                     fontWeight={600}
                                     px={6}
                                     color="white"
-                                    bgGradient='linear(to-r, teal.500, green.500)'
+                                    bgGradient='linear(to-r, teal.600, green.500)'
                                     _hover={{ bgGradient: "linear(to-r, green.500, cyan.900)" }}
                                 >
                                     Apply Now

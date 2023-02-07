@@ -26,6 +26,7 @@ const Courses: FC = () => {
                 >
                     <Heading
                         as="h1"
+                        color="black"
                         lineHeight={1.1}
                         fontWeight={"bold"}
                         fontSize={{ base: '4xl', sm: '5xl', lg: '5xl' }}

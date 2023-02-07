@@ -51,14 +51,14 @@ const IOT: FC = () => {
                             as="h2"
                             lineHeight={1.3}
                             fontWeight={"bold"}
-                            fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
+                            fontSize={{ base: '3xl', sm: '5xl', lg: '6xl' }}
                         >
                             Ambient Computing & IoT Specialization
                         </Heading>
                         <Text
-                            fontSize={20}
+                            fontSize={{ base: 16, sm: 20 }}
                             lineHeight={1.5}
-                            fontWeight="bold" 
+                            fontWeight="bold"
                             pt={{ base: "3", md: "4" }}
                         >
                             The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices.
@@ -110,7 +110,6 @@ const Card = ({ id, title, description }: CardProps) => {
     // For even id show card on left side
     // For odd id show card on right side
     const isEvenId = id % 2 == 0;
-    // let borderWidthValue = isEvenId ? '15px 15px 15px 0' : '15px 0 15px 15px';
     let leftValue = isEvenId ? '-15px' : 'unset';
     let rightValue = isEvenId ? 'unset' : '-15px';
 
@@ -118,7 +117,6 @@ const Card = ({ id, title, description }: CardProps) => {
     if (isMobile) {
         leftValue = '-15px';
         rightValue = 'unset';
-        // borderWidthValue = '15px 15px 15px 0';
     }
 
     return (
@@ -140,7 +138,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: {base: "none", md: `transparent ${useColorModeValue('#1be0da', '#1be0da')} transparent` },
+                borderColor: { base: "none", md: `transparent ${useColorModeValue('#1be0da', '#1be0da')} transparent` },
                 borderStyle: 'solid',
                 position: 'absolute',
                 left: leftValue,

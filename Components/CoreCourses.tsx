@@ -57,12 +57,12 @@ const CoreCourses: FC = () => {
                             as="h2"
                             lineHeight={1.3}
                             fontWeight={"bold"}
-                            fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
+                            fontSize={{ base: '3xl', sm: '5xl', lg: '6xl' }}
                         >
                             Core Courses All Specializations:
                         </Heading>
                         <Text
-                            fontSize={20}
+                            fontSize={{ base: 16, sm: 20 }}
                             lineHeight={1.3}
                             pt={{ base: "3", md: "4" }}
                         >
@@ -114,7 +114,6 @@ const CoreCourses: FC = () => {
 const Card = ({ id, title, description }: CardProps) => {
 
     const isEvenId = id % 2 == 0;
-    let borderWidthValue = isEvenId ? '15px 15px 15px 0' : '15px 0 15px 15px';
     let leftValue = isEvenId ? '-15px' : 'unset';
     let rightValue = isEvenId ? 'unset' : '-15px';
 
@@ -122,7 +121,6 @@ const Card = ({ id, title, description }: CardProps) => {
     if (isMobile) {
         leftValue = '-15px';
         rightValue = 'unset';
-        borderWidthValue = '15px 15px 15px 0';
     }
 
     return (

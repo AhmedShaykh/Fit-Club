@@ -12,7 +12,9 @@ import {
 
 const About: FC = () => {
     return (
-        <Box bg="#1ca388">
+        <Box
+            bg="linear-gradient(to top right, #051937, #004d7c, #0089ab, #00c6ad, #06ff86)"
+        >
             <Container maxW={'7xl'}>
                 <Stack
                     align={'center'}
@@ -24,6 +26,7 @@ const About: FC = () => {
                     >
                         <Heading
                             as="h1"
+                            color="black"
                             lineHeight={1.2}
                             fontWeight={"bold"}
                             fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}
@@ -40,6 +43,7 @@ const About: FC = () => {
                         </Text>
                         <Heading
                             as="h1"
+                            color="black"
                             lineHeight={1.2}
                             fontWeight={"bold"}
                             fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}
