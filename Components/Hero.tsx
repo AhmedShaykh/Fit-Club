@@ -14,7 +14,7 @@ import {
 
 const Hero: FC = () => {
     return (
-        <Box>
+        <Box bg="white">
             <Container maxW={'7xl'}>
                 <Stack
                     align={'center'}

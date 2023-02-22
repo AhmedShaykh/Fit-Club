@@ -67,7 +67,7 @@ const IOT: FC = () => {
                 </Container>
             </Box>
 
-            <Box>
+            <Box bg="white">
                 <Container maxWidth="7xl"
                     p={{ base: 4, sm: 10 }}
                 >
