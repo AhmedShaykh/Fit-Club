@@ -32,7 +32,7 @@ const Navbar: FC = () => {
                 bg="teal"
                 px={4}
             >
-                <Flex h={"100px"} alignItems={"center"} justifyContent={"space-between"}>
+                <Flex h={"100px"} maxW={"7xl"} alignItems={"center"} justifyContent={"space-between"}>
                     <HStack spacing={2} alignItems={"center"}>
                         <Flex
                             rounded="md"
@@ -131,7 +131,6 @@ const Navbar: FC = () => {
                                 size={"sm"}
                                 py={5}
                                 px={4}
-                                mr={4}
                             >
                                 Apply
                             </Button>

@@ -37,7 +37,7 @@ const CNC: FC = () => {
     return (
         <Box>
             <Box
-                bg="#ff05a8"
+                bg="#1b1919"
                 color="white"
             >
                 <Container maxW={'7xl'}>
@@ -124,7 +124,7 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
-            bg="#ff05a8"
+            bg="#1b1919"
             color="white"
             spacing={5}
             rounded="lg"
@@ -138,7 +138,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#ff05a8', '#ff05a8')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue('#1b1919', '#1b1919')} transparent` },
                 borderStyle: 'solid',
                 position: 'absolute',
                 left: leftValue,
@@ -171,7 +171,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="#ff05a8"
+                borderColor="#1b1919"
                 top="0px"
             >
             </chakra.span>
@@ -187,7 +187,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="#ff05a8"
+                    bg="#1b1919"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}

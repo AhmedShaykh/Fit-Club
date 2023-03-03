@@ -37,8 +37,8 @@ const IOT: FC = () => {
     return (
         <Box>
             <Box
-                bg="#1be0da"
-                color="black"
+                bg="#1b1919"
+                color="white"
             >
                 <Container maxW={'7xl'}>
                     <Stack
@@ -124,8 +124,8 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
-            bg="#1be0da"
-            color="black"
+            bg="#1b1919"
+            color="white"
             spacing={5}
             rounded="lg"
             alignItems="center"
@@ -138,7 +138,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { base: "none", md: `transparent ${useColorModeValue('#1be0da', '#1be0da')} transparent` },
+                borderColor: { base: "none", md: `transparent ${useColorModeValue('#1b1919', '#1b1919')} transparent` },
                 borderStyle: 'solid',
                 position: 'absolute',
                 left: leftValue,
@@ -171,7 +171,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="#1be0da"
+                borderColor="#1b1919"
                 top="0px"
             >
             </chakra.span>
@@ -187,7 +187,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="#1be0da"
+                    bg="#1b1919"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}

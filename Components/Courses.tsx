@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Courses: FC = () => {
     return (
-        <Box bg="#f5f4f2">
+        <Box bg="#ffffff">
             <Container
                 maxW="7xl"
                 px={{ base: 5, md: 4 }}
@@ -43,7 +43,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1440ee"}
+                        bg={"#1b1919"}
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -72,8 +72,8 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#13ee9f"}
-                        color="black"
+                        bg={"#1b1919"}
+                        color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
                         w="100%"
@@ -100,7 +100,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#ff05a8"}
+                        bg={"#1b1919"}
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -129,8 +129,8 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1be0da"}
-                        color="black"
+                        bg={"#1b1919"}
+                        color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
                         w="100%"
@@ -158,7 +158,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#ff192e"}
+                        bg={"#1b1919"}
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -187,8 +187,8 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#18f32f"}
-                        color="black"
+                        bg={"#1b1919"}
+                        color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
                         w="100%"
