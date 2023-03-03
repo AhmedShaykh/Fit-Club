@@ -58,7 +58,6 @@ const CNC: FC = () => {
                         <Text
                             fontSize={{ base: 16, sm: 20 }}
                             lineHeight={1.5}
-                            fontWeight="bold"
                             pt={{ base: "3", md: "4" }}
                         >
                             The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes.
@@ -151,7 +150,7 @@ const Card = ({ id, title, description }: CardProps) => {
                     <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
                         {title}
                     </chakra.h1>
-                    <Text fontSize="md" fontWeight="bold">{description}</Text>
+                    <Text fontSize="md">{description}</Text>
                 </VStack>
             </Box>
         </HStack>

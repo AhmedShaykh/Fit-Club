@@ -59,7 +59,6 @@ const Auto: FC = () => {
                         <Text
                             fontSize={{ base: 16, sm: 20 }}
                             lineHeight={1.5}
-                            fontWeight="bold"
                             pt={{ base: "3", md: "4" }}
                         >
                             Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.
@@ -152,7 +151,7 @@ const Card = ({ id, title, description }: CardProps) => {
                     <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
                         {title}
                     </chakra.h1>
-                    <Text fontSize="md" fontWeight="bold">{description}</Text>
+                    <Text fontSize="md">{description}</Text>
                 </VStack>
             </Box>
         </HStack>

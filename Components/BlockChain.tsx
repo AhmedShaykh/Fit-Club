@@ -58,7 +58,6 @@ const Blockchain: FC = () => {
                         <Text
                             fontSize={{ base: 16, sm: 20 }}
                             lineHeight={1.5}
-                            fontWeight="bold"
                             pt={{ base: "3", md: "4" }}
                         >
                             This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.
@@ -151,7 +150,7 @@ const Card = ({ id, title, description }: CardProps) => {
                     <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
                         {title}
                     </chakra.h1>
-                    <Text fontSize="md" fontWeight="bold">{description}</Text>
+                    <Text fontSize="md">{description}</Text>
                 </VStack>
             </Box>
         </HStack>
