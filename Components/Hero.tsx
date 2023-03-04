@@ -14,7 +14,7 @@ import {
 
 const Hero: FC = () => {
     return (
-        <Box bg="white">
+        <Box bg="#f2f2f2">
             <Container maxW={'7xl'}>
                 <Stack
                     align={'center'}
@@ -33,7 +33,7 @@ const Hero: FC = () => {
                         </Heading>
                         <Heading
                             as="h2"
-                            lineHeight={1.2}
+                            lineHeight={1}
                             bgGradient="linear(to-r, #119965, #16d98e, cyan.500)"
                             bgClip="text"
                             fontWeight={"bold"}

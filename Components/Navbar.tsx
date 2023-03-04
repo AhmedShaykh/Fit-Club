@@ -29,7 +29,7 @@ const Navbar: FC = () => {
                 boxShadow="md"
                 position={"fixed"}
                 top={0}
-                bg="teal"
+                bg="#232727"
                 px={4}
             >
                 <Flex h={"100px"} maxW={"7xl"} alignItems={"center"} justifyContent={"space-between"}>
@@ -122,11 +122,11 @@ const Navbar: FC = () => {
                         >
                             <Button
                                 variant={"solid"}
-                                bgGradient='linear(to-r, teal.500, green.500)'
+                                bg="black"
                                 color={"gray.50"}
                                 _hover={{
                                     textDecoration: "none",
-                                    bgGradient: "linear(to-r, green.500, cyan.900)"
+                                    bg: "#0a0f13"
                                 }}
                                 size={"sm"}
                                 py={5}
@@ -219,11 +219,11 @@ const Navbar: FC = () => {
                             >
                                 <Button
                                     variant={"solid"}
-                                    bgGradient='linear(to-r, teal.500, green.500)'
+                                    bg="black"
                                     color={"gray.50"}
                                     _hover={{
                                         textDecoration: "none",
-                                        bgGradient: "linear(to-r, green.500, cyan.900)"
+                                        bg: "#0a0f13"
                                     }}
                                     size={"sm"}
                                     py={5}

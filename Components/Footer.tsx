@@ -60,7 +60,7 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 const Footer: FC = () => {
     return (
         <Box
-            bg="teal"
+            bg="#232727"
             color="white"
         >
             <Container as={Stack} maxW={'7xl'} py={10}>
