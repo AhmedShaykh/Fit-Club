@@ -126,7 +126,8 @@ const Navbar: FC = () => {
                                 color={"gray.50"}
                                 _hover={{
                                     textDecoration: "none",
-                                    bg: "#0a0f13"
+                                    bg: "white",
+                                    color: "black"
                                 }}
                                 size={"sm"}
                                 py={5}
@@ -138,12 +139,13 @@ const Navbar: FC = () => {
                     </Flex>
                     <IconButton
                         color={"white"}
+                        bg="black"
                         size={"lg"}
                         _hover={{
                             textDecoration: "none",
-                            bgGradient: "linear(to-r, green.500, cyan.900)"
+                            bg: "white",
+                            color: "black"
                         }}
-                        variant="ghost"
                         icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
                         aria-label={"Open Menu"}
                         display={{ md: "none" }}
@@ -223,7 +225,8 @@ const Navbar: FC = () => {
                                     color={"gray.50"}
                                     _hover={{
                                         textDecoration: "none",
-                                        bg: "#0a0f13"
+                                        bg: "white",
+                                        color: "black"
                                     }}
                                     size={"sm"}
                                     py={5}

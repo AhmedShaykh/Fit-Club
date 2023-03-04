@@ -37,7 +37,7 @@ const AI: FC = () => {
     return (
         <Box>
             <Box
-                bg="#1b1919"
+                bgGradient="linear(to-r, #051937, #00181a, #0A0B09)"
                 color="white"
             >
                 <Container maxW={'7xl'}>
@@ -123,7 +123,7 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
-            bg="#1b1919"
+            bgGradient="linear(to-r, #051937, #00181a, #0A0B09)"
             color="white"
             spacing={5}
             rounded="lg"
@@ -137,7 +137,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#1b1919', '#1b1919')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue("#162022", "#162022")} transparent` },
                 borderStyle: 'solid',
                 position: 'absolute',
                 left: leftValue,
@@ -170,7 +170,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="#1b1919"
+                borderColor="#24393f"
                 top="0px"
             >
             </chakra.span>
@@ -186,7 +186,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="#1b1919"
+                    bg="#162022"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}

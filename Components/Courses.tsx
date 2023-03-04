@@ -43,7 +43,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1b1919"}
+                        bgGradient="linear(to-tr, #050f1f, #001119, #00100f, #050c07, #090908)"
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -72,7 +72,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1b1919"}
+                        bgGradient="linear(to-tr, #050f1f, #001119, #00100f, #050c07, #090908)"
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -100,7 +100,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1b1919"}
+                        bgGradient="linear(to-tr, #050f1f, #001119, #00100f, #050c07, #090908)"
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -129,7 +129,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1b1919"}
+                        bgGradient="linear(to-tr, #050f1f, #001119, #00100f, #050c07, #090908)"
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -158,7 +158,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1b1919"}
+                        bgGradient="linear(to-tr, #050f1f, #001119, #00100f, #050c07, #090908)"
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}
@@ -187,7 +187,7 @@ const Courses: FC = () => {
                     <Flex
                         justifyContent="center"
                         alignItems="center"
-                        bg={"#1b1919"}
+                        bgGradient="linear(to-tr, #050f1f, #001119, #00100f, #050c07, #090908)"
                         color="white"
                         py={4}
                         px={{ base: 2, md: 4 }}

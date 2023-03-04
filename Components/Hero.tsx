@@ -9,7 +9,8 @@ import {
     Text,
     Button,
     Image,
-    Link
+    Link,
+    useColorModeValue
 } from '@chakra-ui/react';
 
 const Hero: FC = () => {
@@ -34,7 +35,7 @@ const Hero: FC = () => {
                         <Heading
                             as="h2"
                             lineHeight={1}
-                            bgGradient="linear(to-r, #119965, #16d98e, cyan.500)"
+                            bgGradient="linear(to-r, #051937, #00181a, #0A0B09)"
                             bgClip="text"
                             fontWeight={"bold"}
                             fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
@@ -66,8 +67,15 @@ const Hero: FC = () => {
                                     fontWeight={600}
                                     px={6}
                                     color="white"
-                                    bgGradient='linear(to-r, teal.600, green.500)'
-                                    _hover={{ bgGradient: "linear(to-r, green.500, cyan.900)" }}
+                                    bg="black"
+                                    boxShadow={useColorModeValue(
+                                        "0 4px 6px rgb(20 22 23 / 60%)",
+                                        "0 4px 6px rgba(9, 17, 28, 0.9)"
+                                    )}
+                                    _hover={{
+                                        bg: "white",
+                                        color: "black"
+                                    }}
                                 >
                                     Apply Now
                                 </Button>
@@ -83,8 +91,12 @@ const Hero: FC = () => {
                                     fontWeight={600}
                                     color="white"
                                     px={6}
-                                    bg={'grey'}
-                                    _hover={{ bg: "gray.700" }}
+                                    bg={'gray.600'}
+                                    boxShadow={useColorModeValue(
+                                        "0 4px 6px rgb(20 22 23 / 60%)",
+                                        "0 4px 6px rgba(9, 17, 28, 0.9)"
+                                    )}
+                                    _hover={{ bg: "gray.800" }}
                                 >
                                     Syllabus
                                 </Button>

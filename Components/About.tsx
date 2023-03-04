@@ -13,7 +13,7 @@ import {
 const About: FC = () => {
     return (
         <Box
-            bg="linear-gradient(to top right, #051937, #004d7c, #0089ab, #00c6ad, #06ff86)"
+            bg="linear-gradient(to top right, #0d0d18, #212331, #34394d, #48516b, #5c6a8b, #566b8a, #516c88, #4c6c85, #355261, #24393f, #162022, #010202)"
         >
             <Container maxW={'7xl'}>
                 <Stack
