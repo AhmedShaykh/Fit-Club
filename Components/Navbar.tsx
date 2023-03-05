@@ -70,7 +70,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #17fffb, #29e654)",
+                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
                                     bgClip: "text"
                                 }}
                                 href="/"
@@ -87,7 +87,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #17fffb, #29e654)",
+                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
                                     bgClip: "text"
                                 }}
                                 href="/courses"
@@ -104,7 +104,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #17fffb, #29e654)",
+                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
                                     bgClip: "text"
                                 }}
                                 href="https://www.piaic.org/"
@@ -172,7 +172,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #17fffb, #29e654)",
+                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
                                     bgClip: "text"
                                 }}
                                 href="/"
@@ -189,7 +189,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #17fffb, #29e654)",
+                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
                                     bgClip: "text"
                                 }}
                                 href="/courses"
@@ -206,7 +206,7 @@ const Navbar: FC = () => {
                                 _hover={{
                                     textDecoration: "none",
                                     transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #17fffb, #29e654)",
+                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
                                     bgClip: "text"
                                 }}
                                 href="https://www.piaic.org/"
