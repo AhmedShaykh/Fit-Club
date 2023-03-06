@@ -30,7 +30,7 @@ const Hero: FC = () => {
                             fontWeight={"bold"}
                             fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
-                            Certified Web 3.0 and Metaverse Developer
+                            Certified Web 3.0 & Metaverse Developer
                         </Heading>
                         <Heading
                             as="h2"
