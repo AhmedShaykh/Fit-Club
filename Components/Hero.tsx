@@ -28,7 +28,7 @@ const Hero: FC = () => {
                             color="black"
                             lineHeight={1.1}
                             fontWeight={"bold"}
-                            fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
+                            fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
                             Certified Web 3.0 and Metaverse Developer
                         </Heading>
@@ -38,7 +38,7 @@ const Hero: FC = () => {
                             bgGradient="linear(to-r, #051937, #00181a, #0A0B09)"
                             bgClip="text"
                             fontWeight={"bold"}
-                            fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
+                            fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
                             With Panaverse
                         </Heading>

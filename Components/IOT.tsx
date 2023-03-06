@@ -44,7 +44,7 @@ const IOT: FC = () => {
                     <Stack
                         textAlign={'center'}
                         align={'center'}
-                        px="2"
+                        px={{ base: "auto", sm: 2 }}
                         py={{ base: 24, md: 32 }}
                     >
                         <Heading

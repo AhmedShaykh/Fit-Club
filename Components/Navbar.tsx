@@ -32,7 +32,7 @@ const Navbar: FC = () => {
                 bg="#232727"
                 px={4}
             >
-                <Flex h={"100px"} maxW={"7xl"} alignItems={"center"} justifyContent={"space-between"}>
+                <Flex h={"100px"} alignItems={"center"} justifyContent={"space-between"}>
                     <HStack spacing={2} alignItems={"center"}>
                         <Flex
                             rounded="md"

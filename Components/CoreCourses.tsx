@@ -50,7 +50,7 @@ const CoreCourses: FC = () => {
                         mt="5rem"
                         textAlign={'center'}
                         align={'center'}
-                        px="2"
+                        px={{ base: "auto", sm: 2 }}
                         py={{ base: 24, md: 32 }}
                     >
                         <Heading
@@ -63,7 +63,7 @@ const CoreCourses: FC = () => {
                         </Heading>
                         <Text
                             fontSize={{ base: 16, sm: 20 }}
-                            lineHeight={1.3}
+                            lineHeight={1.5}
                             pt={{ base: "3", md: "4" }}
                         >
                             Every participant of the program will start by completing the following three core courses:
