@@ -42,7 +42,7 @@ const CoreCourses: FC = () => {
     return (
         <Box>
             <Box
-                bg="black"
+                bgGradient="linear(to-r, #051937, #00181a, #0A0B09)"
                 color="white"
             >
                 <Container maxW={'7xl'}>
@@ -57,9 +57,9 @@ const CoreCourses: FC = () => {
                             as="h2"
                             lineHeight={1.3}
                             fontWeight={"bold"}
-                            fontSize={{ base: '3xl', sm: '5xl', lg: '6xl' }}
+                            fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
-                            Core Courses All Specializations:
+                            Core Courses Specializations:
                         </Heading>
                         <Text
                             fontSize={{ base: 16, sm: 20 }}
@@ -128,7 +128,7 @@ const Card = ({ id, title, description }: CardProps) => {
             flex={1}
             p={{ base: 4, sm: 6 }}
             my={{ base: 2 }}
-            bg="black"
+            bgGradient="linear(to-r, #051937, #00181a, #0A0B09)"
             color="white"
             spacing={5}
             rounded="lg"
@@ -142,7 +142,7 @@ const Card = ({ id, title, description }: CardProps) => {
                 content: `""`,
                 w: '0',
                 h: '0',
-                borderColor: { md: `transparent ${useColorModeValue('#000000', '#000000')} transparent` },
+                borderColor: { md: `transparent ${useColorModeValue("#162022", "#162022")} transparent` },
                 borderStyle: 'solid',
                 position: 'absolute',
                 left: leftValue,
@@ -175,7 +175,7 @@ const LineWithDot = () => {
                 left="50%"
                 height="calc(100% + 10px)"
                 border="1px solid"
-                borderColor="black"
+                borderColor="#24393f"
                 top="0px"
             >
             </chakra.span>
@@ -191,7 +191,7 @@ const LineWithDot = () => {
                     backgroundSize="cover"
                     backgroundRepeat="no-repeat"
                     backgroundPosition="center center"
-                    bg="black"
+                    bg="#162022"
                     borderRadius="100px"
                     backgroundImage="none"
                     opacity={1}
