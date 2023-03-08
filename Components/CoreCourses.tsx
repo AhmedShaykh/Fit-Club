@@ -59,7 +59,7 @@ const CoreCourses: FC = () => {
                             fontWeight={"bold"}
                             fontSize={{ base: '4xl', sm: '5xl', lg: '6xl' }}
                         >
-                            Core Courses Specializations:
+                            Core Courses (Common In All Specializations):
                         </Heading>
                         <Text
                             fontSize={{ base: 16, sm: 20 }}
