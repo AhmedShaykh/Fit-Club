@@ -19,10 +19,11 @@ const Hero: FC = () => {
             <Container maxW={'7xl'}>
                 <Stack
                     align={'center'}
-                    spacing={{ base: 8, md: 10 }}
-                    py={{ base: 20, md: 28 }}
+                    spacing="8"
+                    py="20"
+                    px="2"
                     direction={{ base: 'column', md: 'row' }}>
-                    <Stack flex={1} spacing={{ base: 5, md: 10 }}>
+                    <Stack flex={1} spacing="6">
                         <Heading
                             as="h2"
                             color="black"
@@ -108,19 +109,20 @@ const Hero: FC = () => {
                         justify={'center'}
                         align={'center'}
                         position={'relative'}
-                        w={'full'}>
+                        // w={'full'}
+                        >
                         <Box
                             position={'relative'}
                             rounded={'2xl'}
                             boxShadow={'3xl'}
-                            width={'full'}
+                            // width={'full'}
                             overflow={'hidden'}>
                             <Image
                                 alt={'Hero Image'}
                                 fit={'cover'}
                                 align={'center'}
-                                w={'100%'}
-                                h={'100%'}
+                                w={'90%'}
+                                h={'90%'}
                                 src={
                                     "./dao.png"
                                 }

@@ -94,23 +94,6 @@ const Navbar: FC = () => {
                             >
                                 Courses
                             </Link>
-                            <Link
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="white"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
-                                    bgClip: "text"
-                                }}
-                                href="https://www.piaic.org/"
-                            >
-                                PIAIC
-                            </Link>
                         </HStack>
                     </HStack>
                     <Flex alignItems={"center"} display={{ base: "none", md: "flex" }}>
@@ -132,6 +115,7 @@ const Navbar: FC = () => {
                                 size={"sm"}
                                 py={5}
                                 px={4}
+                                mx="4"
                             >
                                 Apply
                             </Button>
@@ -140,6 +124,7 @@ const Navbar: FC = () => {
                     <IconButton
                         color={"white"}
                         bg="black"
+                        mr="2"
                         size={"lg"}
                         _hover={{
                             textDecoration: "none",
@@ -160,7 +145,7 @@ const Navbar: FC = () => {
                     >
                         <Stack
                             as={"nav"}
-                            spacing={8}
+                            spacing={6}
                         >
                             <Link
                                 px={2}
@@ -195,23 +180,6 @@ const Navbar: FC = () => {
                                 href="/courses"
                             >
                                 Courses
-                            </Link>
-                            <Link
-                                px={2}
-                                py={1}
-                                rounded={"md"}
-                                color="white"
-                                fontWeight="semibold"
-                                transition="0.25s ease"
-                                _hover={{
-                                    textDecoration: "none",
-                                    transition: "0.25s ease",
-                                    bgGradient: "linear(to-r, #18514e, #225d61, #326874, #457386, #5b7d96, #5b7d96, #5b7d96, #5b7d96, #457386, #326874, #225d61, #18514e)",
-                                    bgClip: "text"
-                                }}
-                                href="https://www.piaic.org/"
-                            >
-                                PIAIC
                             </Link>
                             <Link
                                 _hover={{

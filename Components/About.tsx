@@ -20,13 +20,14 @@ const About: FC = () => {
                     align={'center'}
                     spacing={{ base: 8, md: 10 }}
                     py={{ base: 20, md: 28 }}
+                    px="2"
                     direction={{ base: 'column', md: 'row' }}
                 >
                     <Stack flex={1} spacing={{ base: 5, md: 10 }}
                     >
                         <Heading
                             as="h1"
-                            color="black"
+                            color="#f2eded"
                             lineHeight={1.2}
                             fontWeight={"bold"}
                             fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}
@@ -35,7 +36,7 @@ const About: FC = () => {
                         </Heading>
                         <Text
                             fontSize={{ base: 15, md: 20 }}
-                            color={'white'}
+                            color="#e8f0f3"
                             lineHeight={1.4}
                             pb={{ base: "2", md: "1" }}
                         >
@@ -43,7 +44,7 @@ const About: FC = () => {
                         </Text>
                         <Heading
                             as="h1"
-                            color="black"
+                            color="#f2eded"
                             lineHeight={1.2}
                             fontWeight={"bold"}
                             fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}
@@ -52,7 +53,7 @@ const About: FC = () => {
                         </Heading>
                         <Text
                             fontSize={{ base: 15, md: 20 }}
-                            color={'white'}
+                            color="#e8f0f3"
                             lineHeight={1.4}
                             pb={{ base: "2", md: "1" }}
                         >

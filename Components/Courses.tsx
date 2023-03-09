@@ -38,6 +38,7 @@ const Courses: FC = () => {
                     columns={{ base: 1, md: 2, lg: 3 }}
                     placeItems="center"
                     spacing={10}
+                    px="2"
                     mb={4}
                 >
                     <Flex
